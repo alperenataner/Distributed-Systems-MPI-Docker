@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  master:
+    build: .
+    hostname: master
+    container_name: mpi_master
+    volumes:
+      - ./app:/app
+    networks:
+      - mpi_network
+
+  worker1:
+    build: .
+    hostname: worker1
+    container_name: mpi_worker1
+    volumes:
+      - ./app:/app
+    networks:
+      - mpi_network
+
+  worker2:
+    build: .
+    hostname: worker2
+    container_name: mpi_worker2
+    volumes:
+      - ./app:/app
+    networks:
+      - mpi_network
+
+networks:
+  mpi_network:
+    driver: bridge 
