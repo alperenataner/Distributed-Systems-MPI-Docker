@@ -1,5 +1,5 @@
 # Dağıtık Hesaplama Sistemi: MPI ve OpenMP ile Paralel İşleme
-
+Video Linki : https://youtu.be/9_QFClY8G-Q
 Bu proje, Docker konteynerlerini kullanarak çoklu düğümlü bir dağıtık hesaplama sistemi oluşturur. Sistem, MPI (Message Passing Interface) ve OpenMP teknolojilerini kullanarak hem düğümler arası hem de düğüm içi paralel işleme yapabilme yeteneğine sahiptir.
 
 ## Sistem Mimarisi
